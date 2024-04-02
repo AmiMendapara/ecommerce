@@ -37,7 +37,7 @@ const App=()=>{
   };
   return(
     <ThemeProvider theme={theme}>
-    <Router>
+    <Router basename="/tothepoint_login">
       <GlobalStyle/>
       <Header/>
       <Routes>
