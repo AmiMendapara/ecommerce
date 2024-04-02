@@ -37,7 +37,7 @@ const App=()=>{
   };
   return(
     <ThemeProvider theme={theme}>
-    <Router basename="/tothepoint_login">
+    <Router basename={process.env.PUBLIC_URL}>
       <GlobalStyle/>
       <Header/>
       <Routes>
